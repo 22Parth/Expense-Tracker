@@ -1,0 +1,63 @@
+.new-expense {
+  background-color: white;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-expense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 25px rgba(0,0,0,.5);
+    border: none;
+    background-color: #211A1D;
+    font-weight: bold;
+    color: white;
+    border-radius: 25px;
+    margin-right: 1rem;
+  }
+  
+  .new-expense button:hover,
+  .new-expense button:active {
+    box-shadow: 0 0 25px rgba(0,0,0,.5);
+    background-image:     linear-gradient(
+      to right, 
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%    
+    );
+    animation:slidebg 10s linear infinite;
+  }
+
+  @keyframes slidebg {
+    to {
+      background-position:20vw;
+    }
+  }
+  
+  .new-expense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-expense button.alternative:hover,
+  .new-expense button.alternative:active {
+    background-color: #ddb3f8;
+  }

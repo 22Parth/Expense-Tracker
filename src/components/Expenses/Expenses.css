@@ -1,0 +1,15 @@
+.expenses {
+    padding: 1rem;
+    background-color:white;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+  }
+  
+  .expenses-list__fallback {
+    color: white;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
